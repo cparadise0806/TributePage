@@ -1,0 +1,95 @@
+body{
+    background-color: #ced4da;
+}
+
+hr{
+    color: #023e7d;
+    height: 3px;
+}
+
+.blockquote-footer{
+    color: rgb(41, 39, 39);
+}
+
+.picture{
+    width: 100%;
+    height: auto;
+}
+
+.timeline{
+    max-width:750px;
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+    padding: 25px;
+    
+}
+
+
+.middleRow{
+    position: relative;
+    background-color: #023e7d;
+}
+
+.point{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    background-color: #023e7d;
+
+}
+
+.timelineContent{
+    margin:0 3% 3% 3%;
+}
+
+.timelineInfo{
+    background-color: #053c5e73;
+    padding: 1.5em;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-weight: 200;
+}
+
+.timelineInfo h4{
+    font-weight: 400;
+}
+
+.timelineDateLeft{
+    text-align: right;
+}
+
+#heading{
+    margin-top: 5%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#heading h1{
+    font-size: 5rem;
+    font-family: 'League Gothic', sans-serif;
+}
+
+#heading h2{
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+#mainImg{
+    padding: 75px;
+    background-color: #053c5e73;
+    text-align: center;
+    max-width: 80%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#mainImg h2{
+    font-family: 'League Gothic', sans-serif;
+    font-weight: 400;
+    letter-spacing: .30rem;
+}
